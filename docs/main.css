@@ -1,0 +1,32 @@
+body {
+  margin: 40px auto;
+  max-width: 768px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-family: 'Droid Sans', arial, sans-serif;
+  color: #eee;
+  padding: 0 10px;
+  background-color: rgb(5, 121, 67);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav__link:hover {
+  color: rgb(12, 212, 119)
+}

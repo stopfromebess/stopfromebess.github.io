@@ -1,0 +1,86 @@
+{% extends "templates/page.html" %}
+{% block title %}{{block.super}}BESS fires{% endblock %}
+
+{% block content %}
+<h1>BESS Technology</h1>
+
+<p>The fire safety of Battery Energy Storage Systems (BESS) has become a growing concern due to around 70 fire-related
+    incidents since 2012, 60 since 2018
+    [<a href="https://storagewiki.epri.com/index.php/BESS_Failure_Event_Database" target="_blank">BESS Failure Event
+        Database</a>]
+</p>
+
+<p>The rapid expansion of BESS projects and the supporting industry has led to an increase in concerns, as the
+    occurrence of fire incidents has also escalated. BESS fires can pose a significant safety risk to the area
+    surrounding the BESS installation, posing a human safety risk from the fire and products of the fire and a risk to
+    the environment.</p>
+<p>Whilst safer than some other forms of Lithium Ion battery, Lithium Iron Phosphate batteries (LFP) can and do ignite
+    and are subject to thermal runaway. LFP Battery fires not only pose a risk through the fire itself and the
+    challenges of containing/extinguishing, but also the production of toxic gases, including carbon monoxide (CO) and
+    hydrogen fluoride (HF)(Liu, P., et al., 2020. Thermal runaway and fire behaviors of lithium iron phosphate battery
+    induced by over-heating. Journal of Energy Storage, 31, p.101714.)</p>
+<p>The Trina Solar UK Holdco Ltd Planning Statement for the proposed Frome Power - Energy Storage Facility, provides a
+    general description of the fire detection and fire prevention equipment to be installed, although the loose
+    reference to meeting international standards is less than adequate.Smoke detection and inert gas fire suppression
+    mechanisms are not currently deemed best practice and there is no information on how reliably these would operate in
+    the event of fire - particularly a thermal runaway that in one cell, leading to a domino effect within the battery,
+    potentially leading to explosion. As the battery size increases, the likelihood of a more severe fire also rises. In
+    the event that a battery fire is extinguished, there are still significant potential hazards, including secondary
+    fire, deflagration and toxic gas release. Therefore, it is essential to implement a secondary fire extinguishing
+    system and closely monitor for any rekindling - this is not described in the Planning Statement.</p>
+<p>As planning regulations and practice is relatively slow to catch up with technological developments, it seems clear
+    that there is a lack of effective guidance for planning authorities on large-scale BESS developments.</p>
+<p>Similarly, it would appear as though safety legislation and practice also needs to catch up. “Safety of Grid Scale
+    Lithium-ion Battery Energy Storage Systems” Fordhamet al., 2021.</p>
+
+<h2>UK Government guidance on Battery Energy Storage Systems</h2>
+
+<p>
+    The following is copied from the the UK government website's 
+    <a href="https://www.gov.uk/guidance/renewable-and-low-carbon-energy#battery-energy-storage-systems"
+        target="_blank">Renewable and low carbon energy guidance</a> section on Battery Energy Storage Systems:
+</p>
+
+<p>Electricity storage can enable us to use energy more flexibly and de-carbonise our energy system cost-effectively -
+    for example, by helping to balance the system at lower cost, maximising the usable output from intermittent low
+    carbon generation (e.g. solar and wind), and deferring or avoiding the need for costly network upgrades and new
+    generation capacity.</p>
+<p>Paragraph: 032 Reference ID: 5-032-20230814</p>
+
+<h3>What is the planning application process for battery energy storage systems?</h3>
+<p>When applying for planning permission for development involving lithium-ion battery energy storage systems these are
+    subject to the requirements set out in <a href="https://www.legislation.gov.uk/uksi/2015/595/contents/made"
+        target="_blank">The Town and Country Planning (Development Management Procedure) (England)
+        Order 2015.</a></p>
+<p>Paragraph: 033 Reference ID: 5-033-20230814</p>
+<h3>What can applicants seeking planning permission for battery energy storage systems do to ensure they consider any
+    potential risks?</h3>
+<p>Where planning permission is being sought for development of battery energy storage systems of 1 MWh or over, and
+    excluding where battery energy storage systems are associated with a residential dwelling, applicants are encouraged
+    to engage with the relevant local fire and rescue service before submitting an application to the local planning
+    authority. This is so matters relating to the siting and location of battery energy storage systems, in particular
+    in the event of an incident, prevention of the impact of thermal runway, and emergency services access can be
+    considered before an application is made.</p>
+<p>Applicants are also encouraged to consider <a
+        href="https://www.ukfrs.com/sites/default/files/2023-04/Grid%20Scale%20Battery%20Energy%20Storage%20System%20planning%20Guidance%20for%20FRS.pdf"
+        target="_blank">guidance produced by the National Fire Chiefs Council</a> (PDF, 488 KB) when
+    preparing the application.</p>
+<p>The location of such sites are of particular interest to fire and rescue services; who will seek to obtain details of
+    the design, and firefighting access and facilities at these sites in their register of site specific risks that they
+    maintain for the purposes of Section 7 of the Fire and Rescue Services Act 2004.</p>
+<p>Paragraph: 034 Reference ID: 5-034-20230814</p>
+<h3>What can local planning authorities do to ensure they consider any potential risks when determining the planning
+    application?</h3>
+<p>When planning applications for the development of battery energy storage systems of 1 MWh or over, and excluding
+    where battery energy storage systems are associated with a residential dwelling, are submitted to a local planning
+    authority, the local planning authority are encouraged to consult with their local fire and rescue service as part
+    of the <a href="https://www.gov.uk/guidance/consultation-and-pre-decision-matters#Public-consultation"
+        target="_blank">formal period of public consultation</a> prior to deciding the planning application. This is to
+    ensure that the
+    fire and rescue service are given the opportunity to provide their views on the application to identify the
+    potential mitigations which could be put in place in the event of an incident, and so these views can be taken into
+    account when determining the application.</p>
+<p>Local planning authorities are also encouraged to consider <a href="https://www.ukfrs.com/sites/default/files/2023-04/Grid%20Scale%20Battery%20Energy%20Storage%20System%20planning%20Guidance%20for%20FRS.pdf" target="_blank">guidance produced by the National Fire Chiefs Council</a> (PDF,
+    488 KB) when determining the application.</p>
+<p>Paragraph: 035 Reference ID: 5-035-20230814</p>
+{% endblock %}
