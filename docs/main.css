@@ -1,12 +1,17 @@
+:root {
+  --base-color: rgb(5, 121, 67);
+  --gap: 1.5rem;
+}
+
 body {
-  margin: 40px auto;
+  margin: 0 auto;
   max-width: 1024px;
-  line-height: 1.6;
+  line-height: 1.5;
   font-size: 18px;
   font-family: 'Droid Sans', arial, sans-serif;
   color: #eee;
-  padding: 0 10px;
-  background-color: rgb(5, 121, 67);
+  padding: 0;
+  background-color: var(--base-color);
 }
 
 h1,
@@ -15,10 +20,48 @@ h3 {
   line-height: 1.2
 }
 
-.nav {
+.page-header {
   display: flex;
+  align-items: center;
+  padding: 8px var(--gap);
+}
+
+.menu-button {
+  background: transparent;
+  line-height: 1;
+  border-radius: 4px;
+  color: white;
+  border: solid 1px white;
+  padding: 2px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 16px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: none;
   justify-content: space-between;
-  gap: 10px;
+  gap: var(--gap);
+  flex-direction: column;
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+  background-color: var(--base-color);
+  padding: 8px var(--gap);
+}
+
+.menu-open .nav {
+  display: flex;
 }
 
 .nav__link {
@@ -29,4 +72,20 @@ h3 {
 
 .nav__link:hover {
   color: rgb(12, 212, 119)
+}
+
+@media (min-width: 768px) {
+  .wide-hidden {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+  }
+}
+
+.page-content {
+  padding: 0 var(--gap);
 }
