@@ -58,6 +58,7 @@ h3 {
   border-top: solid 1px white;
   background-color: var(--base-color);
   padding: 8px var(--gap);
+  margin-bottom: var(--gap);
 }
 
 .menu-open .nav {
