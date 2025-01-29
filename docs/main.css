@@ -90,3 +90,11 @@ h3 {
 .page-content {
   padding: 0 var(--gap);
 }
+
+.notice {
+  padding: 0 var(--gap);
+  border: solid 2px brown;
+  background-color: lightyellow;
+  color: brown;
+  margin-top: var(--gap);
+}
