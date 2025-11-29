@@ -98,3 +98,26 @@ h3 {
   color: brown;
   margin-top: var(--gap);
 }
+
+.statemnent-petition {
+  margin-top: var(--gap);
+  margin-bottom: var(--gap);
+  gap: var(--gap);
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  padding: 0 var(--gap);
+  border: solid 2px #222;
+  background-color: #eee;
+  color: #222;
+}
+
+.petition-link {
+  background:rgb(12, 212, 119);
+  color:white;
+  border-radius: 4px;
+  padding: calc(var(--gap) / 2);
+  display: inline-block;
+}
